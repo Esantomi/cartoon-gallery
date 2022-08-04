@@ -2,17 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Hedgehog Cartoon</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/grid-gallery.css"/>
+    <!-- <link rel="stylesheet" href="css/grid-gallery.min.css"> -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
-
+    
     <link rel="shortcut icon" href="favicon/favicon.png">
 
+    <script type="text/javascript">
+      // 안드로이드 우측 버튼 비활성
+      $(document).bind("contextmenu", function (e) {
+          return false;
+      });
+    </script>
+
   </head>
+  
   <body>
     <div class="container">
       <div class="title">
@@ -29,7 +41,7 @@
 
       <div class="about-div" id="about">
         <div class="pfp">
-         <img src="images/brave-sir-kokam2.png" alt="knight hedgehog">
+         <img src="img/brave-sir-kokam2.png" alt="knight hedgehog">
         </div>
         <!-- <div class="about-para">
           I’m not a professional cartoonist but I love to draw hedehogs.
@@ -41,16 +53,56 @@
         <div class="author">&mdash; Brave Sir Kokam</div>
       </div>
 
-      <div class="img-grid" id="cartoons">
-        <div>episode 1<img src="./images/1.png" /></div>
-        <div>episode 2<img src="./images/2.png" /></div>
-        <div>episode 3<img src="./images/3.png" /></div>
-      </div>  
+      <div class="gg-container" id="cartoons">
+        <!-- <p>&nbsp;도치의 모험</p> -->
+        <div class="gg-box square">
+          <img src="./img/1.png">
+          <img src="./img/2.png">
+          <img src="./img/3.png">
+        </div>
+        <!-- <div class="gg-box">
+          <img src="./img/1.png">
+          <img src="./img/2.png">
+          <img src="./img/3.png">
+        </div> -->
+      </div>
       
     </div>
 
-    
+    <footer>Copyright 2022. <a href="https://www.instagram.com/hedgehog_cartoon" target="_blank">hedgehog_cartoon</a>. All rights reserved.</footer>
 
-    <script src="script.js"></script>
+    <script>
+    gridGallery({
+      selector: ".dark",
+      darkMode: true
+    });
+    gridGallery({
+      selector: ".square-gallery",
+      layout: "square",
+      gapLength: 1,
+      columnWidth: 200
+    });
+    gridGal
+    gridGallery({
+      selector: "#horizontal",
+      layout: "horizontal"
+    });
+    gridGallery({
+      selector: "#square",
+      layout: "square"
+    });
+    gridGallery({
+      selector: "#gap",
+      gaplength: 10
+    });
+    gridGallery({
+      selector: "#heightWidth",
+      rowHeight: 280,
+      columnWidth: 280
+    });
+    </script>
+
+    <script type="text/javascript" src="js/grid-gallery.js"></script>
+    <!-- <script src="js/grid-gallery.min.js"></script> -->
   </body>
 </html>
