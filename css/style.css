@@ -96,7 +96,7 @@ body{
 
 
 .quote-div{
-  padding: 1rem;
+  padding: 2rem;
   font-family: 'Nanum Pen Script', 'Poiret One', cursive;
   display: flex;
   flex-direction: column;
@@ -145,10 +145,15 @@ body{
   padding: 1rem;
 }
 
-/* #cartoons{
+#cartoon{
   font-family: 'Nanum Pen Script', cursive;
   font-size: 1.8rem;
-} */
+}
+
+#illust{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 1.8rem;
+}
 
 footer{
   text-align: center;
