@@ -5,8 +5,8 @@
   --img-bg-color: rgba(240, 240, 240, 0.9);
   --backdrop-color: rgba(240, 240, 240, 0.9);
   --gap-length: 1.5%;
-  --row-height: 200px;
-  --column-width: 200px;
+  --row-height: 320px;
+  --column-width: 320px;
 }
 
 .gg-container *[data-theme="dark"] {
@@ -103,7 +103,7 @@
   bottom: 10px;
 }
 
-@media (min-width: 478px) {
+/* @media (min-width: 478px) {
   .gg-box img:nth-child(2n):not(:last-of-type) {
     grid-row-end: span 2;
   }
@@ -117,7 +117,7 @@
     grid-row-end: span 1;
     grid-column-end: span 1;
   }
-}
+} */
 
 @media (max-width: 768px) {
   .gg-box {
@@ -131,4 +131,4 @@
   .gg-box {
     grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   }
-}
+} */
