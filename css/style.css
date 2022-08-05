@@ -158,9 +158,9 @@ body{
 footer{
   text-align: center;
   font-family: 'Dosis', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   padding: 0.5rem 0 0.5rem;
-  background-color: #ededf2;
+  background-color: #efeff5;
 }
 
 @media only screen and (max-width: 960px) {
