@@ -51,7 +51,7 @@ body{
 }
 
 .title>h1{
-  font-family: 'Poiret One', cursive;
+  font-family: 'Caveat', cursive;
   font-size: 3.25rem;
   text-align: center;
 }
@@ -64,7 +64,7 @@ body{
 .navbar>li{
   width: 20.125rem;
   font-size: 2.188rem;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Caveat', cursive;
   display: flex;
   justify-content: space-between;
 }
@@ -146,12 +146,12 @@ body{
 }
 
 #cartoon{
-  font-family: 'Gaegu', cursive;
+  font-family: 'Caveat', cursive;
   font-size: 1.8rem;
 }
 
 #illust{
-  font-family: 'Gaegu', cursive;
+  font-family: 'Caveat', cursive;
   font-size: 1.8rem;
 }
 
