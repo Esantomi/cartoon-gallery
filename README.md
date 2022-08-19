@@ -4,4 +4,4 @@ hedgehogtoon
 - 일러스트, 만화를 올리기 위한 목적에서 구축함
 
 ## preview
-![image](https://user-images.githubusercontent.com/61646760/183250276-08a072cd-5445-4702-9052-1e3340b3490b.png)
+![image](https://user-images.githubusercontent.com/61646760/185561632-610b5a05-274c-4877-99db-fe34ceeeda57.png)
